@@ -1,0 +1,22 @@
+#//  S_Protection 1.0 BETA//
+#//  Creator: Sasuke1689//
+#//  Check Update: https://discord.gg/9aTx4Q35hD //
+
+Prefix: "&6[S_Protection]&e"
+
+#Mensagems do Plugin
+Mensagems:
+  ComandoDesativado: "{prefix} Esse comando foi desativado no servidor !"
+  ComandoparaConsole: "{prefix} Esse comando e apenas para o console !"
+
+AntiOP:
+  Ativar: true
+  #Recomendado
+  removerOp: true
+  #Punir o jogador caso ele entre com op no servidor 
+  PunirJogador: true
+  PunirComando: "ban {player} Voce nao pode entrar com op em nossa rede !"
+  desativarComando: true
+  Mensagem: "{prefix} &cEsse comando foi desativado em nossa rede !"
+  #Avisar no console caso alguem tente executar o comando de /op e /deop
+  Warn: true

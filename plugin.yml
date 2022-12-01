@@ -1,0 +1,6 @@
+name: S_Protection
+version: 1.0
+author: Sasuke
+main: me.sasuke.protection.Main
+commands:
+  sprotection:
